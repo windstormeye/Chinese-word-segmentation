@@ -78,6 +78,7 @@ public class ChineseParticiple {
         for (int i = 0; i < accString.length(); i ++) {
             String nowString = accString.substring(i);
             // 调用匹配词典方法
+            System.out.println(nowString);
             if (dealString(nowString)) {
                 int len = nowString.length();
                 outputArea.appendText(nowString + ",");
